@@ -1,0 +1,14 @@
+Melhorias que devem/podem ser feitas:
+
+° Adicionar forma de pagamento
+° Verificar se o e-mail existe
+° Verificar se o CEP é válido
+° Verificar se a idade bate com o nascimento
+° Ter uma notificação ao admin a uma atividade do usuário (ex: compra aprovada)
+How to send notification to admin on a specific user activity
+° Alterar Imagens e nomes de produtos - (direitos autorais)
+° Fazer deploy do site (utilizar Heroku - free)
+° Adicionar projeto ao Git-hub
+° IDEIA:     Mercado pago
+                Usar uma API Rest que receba os dados do pagamento e que altere o status do pedido na base de dados.
+                Envie ao cliente talvez por email ou por mensagem de forma automatica.

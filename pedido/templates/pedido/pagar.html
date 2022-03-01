@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block titulo %} Pagamento | {% endblock %}
+
+
+{% load omfilters %}
+{% load static %}
+
+{% block conteudo %}
+
+
+<div class="row">
+    <div class="col">
+        <h3>Como você prefere pagar?</h3>
+
+        <h5>Métodos de pagamentos.</h5>
+            <form data-id="payment-options" data-js="payment-options-form" class="payment-options-form" method="post">
+                <ul class="badge-type-selection__list">
+                    <li aria-checked="false" class="badge-type-selection__list-item ui-list__item">Pix</li>
+                    <li aria-checked="true"
+                        class="badge-type-selection__list-item ui-list__item ui-list__item--selected">
+                        Cartão de credito
+                    </li>
+                    <li aria-checked="false" class="badge-type-selection__list-item ui-list__item">Cartão de débito</li>
+                </ul>
+
+            </form>
+    </div>
+</div>
+
+{% include 'parciais/_pedido.html' %}
+
+<div class="row mt-4">
+    <div class="col">
+        <a href="/sobre/projeto/" class="btn btn-primary btn-block btn-lg">Pagar</a>
+    </div>
+</div>
+
+
+
+{% endblock %}
