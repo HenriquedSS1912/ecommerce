@@ -4,7 +4,7 @@
 
 ## 🚀 Sobre o projeto
 
-Projeto desenvolvido do zero no Curso de [Python 3](https://www.udemy.com/course/python-3-do-zero-ao-avancado/) disponível na plataforma da Udemy.
+Projeto desenvolvido do zero com o framework Django no Curso de [Python 3](https://www.udemy.com/course/python-3-do-zero-ao-avancado/) disponível na plataforma da Udemy.
 
 
 ## 📦 Desenvolvimento
